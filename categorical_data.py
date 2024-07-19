@@ -49,4 +49,7 @@ X = ct.fit_transform(X)
 
 # Encoding the Dependent Variable  
 labelencoder_y = LabelEncoder()  
-y = labelencoder_y.fit_transform(y)  
+y = labelencoder_y.fit_transform(y)
+
+print(X)
+print(y)
